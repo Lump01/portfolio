@@ -22,7 +22,7 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'AI Powered Handwriting Document Scanner',
+        name: 'AI Handwriting Scanner',
         description:
             'My team and I built a feature into a mobile application so users could scan a handwritten document, auto select the corners of the page, upload, use AI to analyze the handwriting, and update a form based on what they wrote.',
         tools: ['React Native', 'JavaScript', 'Ruby'],
