@@ -5,7 +5,7 @@ export const personalData = {
   personalDescription:
     "Hey there! My name is Jonathan Lumpkin and I've been married to my beautiful wife, Gretchen, since November of 2021, and we just had our firstborn, Josephine. ",
   devDescription:
-    "I'm an innovative software developer with four years of experience and a strong background in full-stack mobile" +
+    "I'm an innovative software developer with four years of experience and a strong background in full-stack mobile " +
     "and web application development. I have a proven ability to lead feature development for award-winning " +
     "applications, optimize workflows with automation, and enhance user experiences through intuitive design. I'm " +
     "passionate about building impactful technology, driving projects forward, and continually expanding expertise in " +
