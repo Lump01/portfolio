@@ -18,11 +18,11 @@ function AboutSection() {
             About me
           </p>
           <p className="text-gray-200 text-sm lg:text-lg">
-            {personalData.personalDescription}
+            {personalData.devDescription}
           </p>
           <br />
           <p className="text-gray-200 text-sm lg:text-lg">
-            {personalData.devDescription}
+            {personalData.personalDescription}
           </p>
         </div>
         <div className="flex justify-center order-1 lg:order-2">
