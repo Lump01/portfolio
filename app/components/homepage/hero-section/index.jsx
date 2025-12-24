@@ -1,10 +1,10 @@
 // @flow strict
 
-import { personalData } from "@/utils/data/personal-data";
-import Image from "next/image";
-import Link from "next/link";
-import { MdDownload } from "react-icons/md";
-import { RiContactsFill } from "react-icons/ri";
+import { personalData } from '@/utils/data/personal-data'
+import Image from 'next/image'
+import Link from 'next/link'
+import { MdDownload } from 'react-icons/md'
+import { RiContactsFill } from 'react-icons/ri'
 
 function HeroSection() {
   return (
@@ -23,7 +23,7 @@ function HeroSection() {
             My name is <br />
             <span className=" text-pink-500">{personalData.name}</span>,
             <br />
-            I'm a professional{" "}
+            I'm a professional{' '}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>.
           </h1>
 
@@ -67,7 +67,7 @@ function HeroSection() {
                 <span className="mr-2 text-pink-500">const</span>
                 <span className="mr-2 text-white">coder</span>
                 <span className="mr-2 text-pink-500">=</span>
-                <span className="text-gray-400">{"{"}</span>
+                <span className="text-gray-400">{'{'}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
@@ -131,7 +131,7 @@ function HeroSection() {
                   hireable:
                 </span>
                 <span className="text-orange-400">function</span>
-                <span className="text-gray-400">{"() {"}</span>
+                <span className="text-gray-400">{'() {'}</span>
               </div>
               <div>
                 <span className="ml-8 lg:ml-16 mr-2 text-orange-400">
@@ -169,7 +169,7 @@ function HeroSection() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default HeroSection;
+export default HeroSection

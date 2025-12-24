@@ -1,18 +1,19 @@
-import { Inter } from "next/font/google";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import Footer from "./components/footer";
-import ScrollToTop from "./components/helper/scroll-to-top";
-import Navbar from "./components/navbar";
-import "./css/card.scss";
-import "./css/globals.scss";
-const inter = Inter({ subsets: ["latin"] });
+import { Inter } from 'next/font/google'
+import { ToastContainer } from 'react-toastify'
+import Footer from './components/footer'
+import ScrollToTop from './components/helper/scroll-to-top'
+import Navbar from './components/navbar'
+import './tailwind.css'
+import './globals.css'
+import './css/card.css'
+import 'react-toastify/dist/ReactToastify.css'
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "Jonathan Lumpkin - Software Developer",
+  title: 'Jonathan Lumpkin - Software Developer',
   description:
-    "This is the portfolio of Jonathan Lumpkin, a full stack mobile and web developer.",
-};
+    'This is the portfolio of Jonathan Lumpkin, a full stack mobile and web developer.',
+}
 
 export default function RootLayout({ children }) {
   return (
@@ -28,5 +29,5 @@ export default function RootLayout({ children }) {
       </body>
       {/*<GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />*/}
     </html>
-  );
+  )
 }
