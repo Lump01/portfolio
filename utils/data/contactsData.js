@@ -1,11 +1,11 @@
 export const contactsData = {
     email: 'jonathan.a.lumpkin@gmail.com',
-    phone: '+2147840250',
-    address: 'Abilene, TX, USA',
+    phone: '',
+    address: '',
     github: 'https://github.com/lump01',
-    facebook: 'https://www.facebook.com/jonathan.lumpkin/',
+    facebook: '',
     linkedIn: 'https://www.linkedin.com/in/jonathan.lumpkin/',
-    twitter: 'https://twitter.com/jonathanlumpkin',
+    twitter: '',
     stackOverflow: "https://stackoverflow.com/users/20284548/lump",
     devUsername: "lump001"
 }
