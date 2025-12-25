@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Jonathan Lumpkin - Software Developer',
+  title: 'Jonathan Lumpkin - Software Engineer',
   description:
     'This is the portfolio of Jonathan Lumpkin, a full stack mobile and web developer.',
 }
